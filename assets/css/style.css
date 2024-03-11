@@ -97,3 +97,28 @@ aside ul {
     color: white;
     font-family: "Raleway";
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 786px;
+    padding-left: 20px;
+    border-right: 2px solid black;
+}
+main h3 {
+    background-color: #dbc2a4;
+    width: 770px;
+    font-family: "Lato";
+    text-indent: 10px;
+    border-left: 5px solid #782221;
+}
+main p {
+    font-family: "Raleway";
+}
+main ul {
+    font-family: "Raleway";
+}
+main div:hover {
+    border-right: 5px solid #782221;
+    margin-right: 10px;
+}
